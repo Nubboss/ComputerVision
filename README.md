@@ -35,3 +35,4 @@ python main.py --video video1.mp4
 среднее  пусто ->подошли  (s): 30.673786545454547
 
 ## Проблемные кадры
+![alt text](problem_frame.png)
