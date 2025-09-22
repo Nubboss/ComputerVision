@@ -155,8 +155,8 @@ print('среднее  пусто ->подошли  (s):', mean_empty_to_approac
 
 # сохранить простой отчет в файл (ДОБАВЛЕНО)
 with open('report.txt', 'w', encoding='utf-8') as f:
-    f.write(f"mean_empty_to_occupied: {mean_empty_to_occupied}\n")
-    f.write(f"mean_empty_to_approach: {mean_empty_to_approach}\n")
+    f.write(f"среднее пусто ->занято  (s):{mean_empty_to_occupied}\n")
+    f.write(f"среднее  пусто ->подошли  (s): {mean_empty_to_approach}\n")
     f.write("\nEvents:\n")
     f.write(df.to_csv(index=False))
 
